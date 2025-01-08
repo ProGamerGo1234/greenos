@@ -102,6 +102,7 @@ while terminal != ('stop'):
    if pwdsee == ('Y'):
      print(f'Your password is {pwd}')
      print('About recomends you to clear your terminal.')
+     print('Also, use calculator with /calculator')
    if terminal == ('stop'):
      print('Shutting down...')
      time.sleep('2')
