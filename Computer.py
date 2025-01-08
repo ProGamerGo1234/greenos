@@ -111,11 +111,22 @@ while terminal != ('stop'):
      dow = input('Do you want to use decimals? (Y/N) ')
      if dow == ('Y'):
       num = input(float('What is the first number?'))
-      num2 = input(float('What is the first number?'))
-      operator = input('+/-')
+      num2 = input(float('What is the seccond number?'))
+      operator = input('+/- ')
       if operator == ('+'):
        anwser = (num + num2)
        print(f'{num} + {num2} = ')
       if operator == ('-'):
        anwser = (num - num2)
        print(f'{num} - {num2} = ')
+   if dow == ('N'):
+      num = input(int('What is the first number?'))
+      num2 = input(int('What is the seccond number?'))
+      operator = input('+/- ')
+      if operator == ('+'):
+       anwser = (num + num2)
+       print(f'{num} + {num2} = ')
+      if operator == ('-'):
+       anwser = (num - num2)
+       print(f'{num} - {num2} = ')
+     
